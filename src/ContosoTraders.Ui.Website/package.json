@@ -50,8 +50,8 @@
     "yup": "^0.32.11"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build",
+    "start": "react-scripts --openssl-legacy-provider --max-old-space-size=1024 start",
+    "build": "react-scripts --openssl-legacy-provider --max-old-space-size=1024 build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
